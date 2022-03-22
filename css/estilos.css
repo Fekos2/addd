@@ -1,0 +1,40 @@
+ul{
+    list-style-type:none;
+    display:flex;
+}
+
+ul li{
+    color:rgb(210, 205, 255);
+    margin: 2px 2px 2px 2px;
+    width:150px;
+    flex-wrap:nowrap;
+}
+
+#principal:hover {
+    background-color: yellow;
+}
+/*margin:->
+    margin-top:2px;
+    margin-right:2px;
+    margin-bottom:2px;
+    margin-left:2px;*/
+
+li a{
+  text-decoration:none;
+  color:brown;
+  font-size: 22px;
+}
+
+li a:hover{
+    color:blue;
+
+}
+
+
+li a:visited{
+    color:chartreuse;
+}
+
+p {
+    color:darkgreen;
+}
